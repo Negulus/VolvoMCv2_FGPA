@@ -1,0 +1,139 @@
+NET "mem_sync" LOC = P54;
+NET "mem_read" LOC = P55;
+NET "mem_adr[0]" LOC = P39;
+NET "mem_adr[1]" LOC = P38;
+NET "mem_adr[2]" LOC = P37;
+NET "mem_adr[3]" LOC = P44;
+NET "mem_adr[4]" LOC = P43;
+NET "mem_adr[5]" LOC = P42;
+NET "mem_adr[6]" LOC = P41;
+NET "mem_adr[7]" LOC = P48;
+NET "mem_adr[8]" LOC = P46;
+NET "mem_adr[9]" LOC = P58;
+NET "mem_adr[10]" LOC = P47;
+NET "mem_adr[11]" LOC = P49;
+NET "mem_data[0]" LOC = P50;
+NET "mem_data[1]" LOC = P51;
+NET "mem_data[2]" LOC = P57;
+NET "mem_data[3]" LOC = P64;
+NET "mem_data[4]" LOC = P70;
+NET "mem_data[5]" LOC = P69;
+NET "mem_data[6]" LOC = P68;
+NET "mem_data[7]" LOC = P67;
+
+NET "lcd_sync" LOC = P129;
+NET "lcd_frame" LOC = P125;
+NET "lcd_en" LOC = P59;
+NET "lcd_rdy" LOC = P60;
+NET "lcd_res1" LOC = P131;
+NET "lcd_res2" LOC = P127;
+NET "lcd_data[0]" LOC = P110;
+NET "lcd_data[1]" LOC = P114;
+NET "lcd_data[2]" LOC = P117;
+NET "lcd_data[3]" LOC = P121;
+NET "lcd_data[4]" LOC = P126;
+NET "lcd_data[5]" LOC = P130;
+NET "lcd_data[6]" LOC = P134;
+NET "lcd_data[7]" LOC = P138;
+
+NET "park_sync" LOC = P85;
+NET "park_in" LOC = P18;
+
+NET "in_din[0]" LOC = P87;
+NET "in_din[1]" LOC = P88;
+NET "in_din[2]" LOC = P90;
+NET "in_din[3]" LOC = P91;
+NET "in_din[4]" LOC = P92;
+NET "in_din[5]" LOC = P93;
+
+NET "in_but[0]" LOC = P3;
+NET "in_but[1]" LOC = P4;
+NET "in_but[2]" LOC = P5;
+NET "in_but[3]" LOC = P6;
+NET "in_but[4]" LOC = P7;
+NET "in_but[5]" LOC = P8;
+
+NET "out_dout[0]" LOC = P10;
+NET "out_dout[1]" LOC = P11;
+NET "out_dout[2]" LOC = P12;
+NET "out_dout[3]" LOC = P13;
+NET "out_dout[4]" LOC = P15;
+NET "out_dout[5]" LOC = P16;
+
+NET "led1" LOC = P82;
+NET "led2" LOC = P79;
+NET "led3" LOC = P78;
+NET "led4" LOC = P77;
+NET "led5" LOC = P75;
+NET "led6" LOC = P76;
+
+//------------------------
+
+NET "mem_sync" IOSTANDARD = LVCMOS33;
+NET "mem_read" IOSTANDARD = LVCMOS33;
+NET "mem_adr[0]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[1]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[2]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[3]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[4]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[5]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[6]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[7]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[8]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[9]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[10]" IOSTANDARD = LVCMOS33;
+NET "mem_adr[11]" IOSTANDARD = LVCMOS33;
+NET "mem_data[0]" IOSTANDARD = LVCMOS33;
+NET "mem_data[1]" IOSTANDARD = LVCMOS33;
+NET "mem_data[2]" IOSTANDARD = LVCMOS33;
+NET "mem_data[3]" IOSTANDARD = LVCMOS33;
+NET "mem_data[4]" IOSTANDARD = LVCMOS33;
+NET "mem_data[5]" IOSTANDARD = LVCMOS33;
+NET "mem_data[6]" IOSTANDARD = LVCMOS33;
+NET "mem_data[7]" IOSTANDARD = LVCMOS33;
+
+NET "lcd_sync" IOSTANDARD = LVCMOS33;
+NET "lcd_frame" IOSTANDARD = LVCMOS33;
+NET "lcd_en" IOSTANDARD = LVCMOS33;
+NET "lcd_rdy" IOSTANDARD = LVCMOS33;
+NET "lcd_res1" IOSTANDARD = LVCMOS33;
+NET "lcd_res2" IOSTANDARD = LVCMOS33;
+NET "lcd_data[0]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[1]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[2]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[3]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[4]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[5]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[6]" IOSTANDARD = LVCMOS33;
+NET "lcd_data[7]" IOSTANDARD = LVCMOS33;
+
+NET "park_in" IOSTANDARD = LVCMOS33;
+NET "park_sync" IOSTANDARD = LVCMOS33;
+
+NET "in_din[0]" IOSTANDARD = LVCMOS33;
+NET "in_din[1]" IOSTANDARD = LVCMOS33;
+NET "in_din[2]" IOSTANDARD = LVCMOS33;
+NET "in_din[3]" IOSTANDARD = LVCMOS33;
+NET "in_din[4]" IOSTANDARD = LVCMOS33;
+NET "in_din[5]" IOSTANDARD = LVCMOS33;
+
+NET "in_but[0]" IOSTANDARD = LVCMOS33;
+NET "in_but[1]" IOSTANDARD = LVCMOS33;
+NET "in_but[2]" IOSTANDARD = LVCMOS33;
+NET "in_but[3]" IOSTANDARD = LVCMOS33;
+NET "in_but[4]" IOSTANDARD = LVCMOS33;
+NET "in_but[5]" IOSTANDARD = LVCMOS33;
+
+NET "out_dout[0]" IOSTANDARD = LVCMOS33;
+NET "out_dout[1]" IOSTANDARD = LVCMOS33;
+NET "out_dout[2]" IOSTANDARD = LVCMOS33;
+NET "out_dout[3]" IOSTANDARD = LVCMOS33;
+NET "out_dout[4]" IOSTANDARD = LVCMOS33;
+NET "out_dout[5]" IOSTANDARD = LVCMOS33;
+
+NET "led1" IOSTANDARD = LVCMOS33;
+NET "led2" IOSTANDARD = LVCMOS33;
+NET "led4" IOSTANDARD = LVCMOS33;
+NET "led3" IOSTANDARD = LVCMOS33;
+NET "led5" IOSTANDARD = LVCMOS33;
+NET "led6" IOSTANDARD = LVCMOS33;
